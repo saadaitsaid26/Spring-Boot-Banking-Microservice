@@ -1,0 +1,24 @@
+type Query {
+    accountsList: [AccountResponse]
+    accountById(id: String): AccountResponse
+}
+
+type Mutation {
+    saveAccount(account: AccountInput): AccountResponse
+    updateAccount(id: String, account: AccountInput): AccountResponse
+    deleteAccount(id: String): Boolean
+}
+
+type AccountResponse {
+    id: String
+    balance: Float
+    currency: String
+    type: String
+    createdAt: Float
+}
+
+input AccountInput {
+    balance: Float
+    currency: String
+    type: String
+}
