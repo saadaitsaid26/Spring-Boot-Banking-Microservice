@@ -12,13 +12,17 @@
     <artifactId>bank-account-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>bank-account-service</name>
-    <description>bank-account-service</description>
+    <description>Bank Account Service — Spring Boot micro-service exposing a bank account API over REST, Spring Data REST and GraphQL</description>
     <url/>
     <licenses>
         <license/>
     </licenses>
     <developers>
-        <developer/>
+        <developer>
+            <id>saadaitsaid26</id>
+            <name>Saad Ait Saidou-Ali</name>
+            <email>60795498+saadaitsaid26@users.noreply.github.com</email>
+        </developer>
     </developers>
     <scm>
         <connection/>
